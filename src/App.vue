@@ -1,27 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <h1>Lista de Postst:</h1>
+  <PostContainer />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-});
+<script lang="ts" setup>
+import PostContainer from './components/PostContainer.vue';
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1 {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 20px;
 }
 </style>
