@@ -4,6 +4,10 @@
         <PostCard />
         <PostCard />
         <PostCard />
+        <PostCard />
+        <PostCard />
+        <PostCard />
+        
     </div>
 </template>
 

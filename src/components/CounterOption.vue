@@ -1,7 +1,8 @@
 <template>
-    
-    <h3> {{ counter }}</h3>
-    <button @click="addCounter">Incrementar</button>
+    <div class="is-flex is-flex-direction-column is-align-items-center">
+        <h3 class="has-text-centered"> {{ counter }}</h3>
+        <button class="" @click="addCounter">Incrementar</button>
+    </div>
 </template>
 
 <script lang="ts">

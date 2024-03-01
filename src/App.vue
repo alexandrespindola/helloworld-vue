@@ -1,15 +1,14 @@
 <template>
-  <h1>Lista de Postst:</h1>
-  <PostContainer />
+  <ExampleSelective/>
 </template>
 
 <script lang="ts" setup>
-import PostContainer from './components/PostContainer.vue';
+import ExampleSelective from './components/ExampleSelective.vue'
+
 </script>
 
 <style>
 h1 {
-  text-align: center;
-  margin: 20px;
+  color: green
 }
 </style>
